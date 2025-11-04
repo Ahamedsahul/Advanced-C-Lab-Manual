@@ -15,18 +15,75 @@ Else
 6.	Return 0
  
 Program:
+~~~c
+#include <stdio.h>
 
-//type your code here
+struct eligible {
+    char n[50];
+    int age;
+};
+
+int main() {
+    struct eligible e[100];
+    int n, i;
+
+    printf("Enter number of persons: ");
+    scanf("%d", &n);
+
+    for (i = 0; i < n; i++) {
+        printf("\nEnter name: ");
+        scanf("%s", e[i].n);
+        printf("Enter age: ");
+        scanf("%d", &e[i].age);
+    }
+
+    printf("\n--- Vaccine Eligibility Check ---\n");
+    for (i = 0; i < n; i++) {
+        printf("\nName: %s", e[i].n);
+        printf("\nAge: %d", e[i].age);
+        if (e[i].age <= 6)
+            printf("\nVaccine Eligibility: No\n");
+        else
+            printf("\nVaccine Eligibility: Yes\n");
+    }
+
+    return 0;
+}
+~~~
 
 
 Output:
 
-//paste your output here
+~~~
+Enter number of persons: 3
+
+Enter name: Arjun
+Enter age: 5
+
+Enter name: Praveen
+Enter age: 12
+
+Enter name: Sneha
+Enter age: 8
+
+--- Vaccine Eligibility Check ---
+
+Name: Arjun
+Age: 5
+Vaccine Eligibility: No
+
+Name: Praveen
+Age: 12
+Vaccine Eligibility: Yes
+
+Name: Sneha
+Age: 8
+Vaccine Eligibility: Yes
+~~~
 
 
 Result:
 Thus, the program is verified successfully. 
-
 
 
 EXP NO:2 C PROGRAM FOR PASSING STRUCTURES AS FUNCTION ARGUMENTS AND RETURNING A STRUCTURE FROM A FUNCTION
