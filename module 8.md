@@ -63,7 +63,7 @@ seventy five
 ## Result:
 
 ~~~
-Thus, the program is verified successfully. ✅
+Thus, the program is verified successfully. 
 ~~~
 
 ## EXP NO: 7 — C PROGRAM TO PRINT TEN SPACE-SEPARATED INTEGERS DENOTING FREQUENCY OF EACH DIGIT FROM 0 TO 3
@@ -130,7 +130,7 @@ Enter a string of digits: 01230123
 
 ### Result:
 
-Thus, the program is verified successfully. ✅
+Thus, the program is verified successfully. 
 
 ## EXP NO: 8 — C PROGRAM TO PRINT ALL PERMUTATIONS IN STRICT LEXICOGRAPHICAL ORDER
 
@@ -233,7 +233,7 @@ CBA
 
 ### Result:
 
-Thus, the program is verified successfully. ✅
+Thus, the program is verified successfully. 
 
 ## EXP NO: 9 — C PROGRAM TO PRINT A PATTERN OF NUMBERS FROM 1 TO N
 
@@ -307,7 +307,7 @@ Enter n: 3
 
 ### Result:
 
-Thus, the program is verified successfully. ✅
+Thus, the program is verified successfully. 
 
 ## EXP NO: 10 — C PROGRAM TO FIND THE SQUARE OF A NUMBER USING FUNCTION WITHOUT ARGUMENTS BUT WITH RETURN TYPE
 
@@ -373,4 +373,4 @@ Square of the number is: 25
 
 ### Result:
 
-Thus, the program is verified successfully. ✅
+Thus, the program is verified successfully. 
