@@ -62,9 +62,7 @@ seventy five
 
 ## Result:
 
-~~~
 Thus, the program is verified successfully. 
-~~~
 
 ## EXP NO: 7 — C PROGRAM TO PRINT TEN SPACE-SEPARATED INTEGERS DENOTING FREQUENCY OF EACH DIGIT FROM 0 TO 3
 
