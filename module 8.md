@@ -4,7 +4,7 @@
 
 To write a C program to print the lowercase English word corresponding to the given number.
 
-## Algorithm:
+### Algorithm:
 
 
 Start
